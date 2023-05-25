@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #222f56 !important;
+}
+
+.movies {
+  background-color: #052995!important;
+  position: relative;
+  height: 850px;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie_content_box {
+  padding: 10px;
+}
+
+.movie_content_box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.movie_content_box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+span p {
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  all: unset;
+  background-color: #052995;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 1s;
+}
+.grid-item:hover {
+  background-color: #164bea;
+  transition: 1s;
+}
+
+.ticket {
+  background-color: #7B9095;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.ticket-header {
+  text-align: center;
+}
+
+.ticket-header h2 {
+  margin: 0;
+  color: #050505;
+  font-size: 25px;
+}
+
+.ticket-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ticket-image img {
+  height: 55vh;
+  width: 55vh;
+  border-radius: 10px;
+  object-fit: cover;
+  
+}
+
+.ticket-info {
+  margin-top: 20px;
+}
+
+.movie-title {
+  margin: 5px 0;
+  color: #050505;
+  font-size: 30px;
+}
+
+.seat-number {
+  text-align: center;
+  margin-top: 20px;
+  
+  font-size: 20px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.language{
+  font-size: 20px;
+  color: #000000;
+}
